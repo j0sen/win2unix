@@ -10,7 +10,7 @@ file_path2 = r"c:/Users/josen/Downloads/202309 kk.txt"
 file_path = r"c:/Users/josen/Downloads/202309 L.A.R. KAPURA - LAR DT CSV(1).tsv"
 file_path_salida = r"c:/Users/josen/Downloads/202309 kk.txt"
 
-with open(file_path, 'rb') as open_file:
+with open(file_path2, 'rb') as open_file:
 #with open(file_path, 'rb',encoding='cp1252') as open_file:
     content = open_file.read()
     
@@ -23,7 +23,7 @@ content = content.replace(WINDOWS_LINE_ENDING, UNIX_LINE_ENDING)
 # reemplazar tab por ;
 content = content.replace(TAB, PUNTOYCOMA)
 
-with open(file_path_salida, 'wb') as open_file:
+with open(file_path_salida2, 'wb') as open_file:
     open_file.write(content)
 
 
@@ -36,4 +36,3 @@ Created on Mon Oct 16 17:43:19 2023
 
 @author: josen
 """
-

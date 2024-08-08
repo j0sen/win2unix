@@ -10,6 +10,10 @@ file_path2 = r"c:/Users/josen/Downloads/202309 kk.txt"
 file_path = r"c:/Users/josen/Downloads/202309 L.A.R. KAPURA - LAR DT CSV(1).tsv"
 file_path_salida = r"c:/Users/josen/Downloads/202309 kk.txt"
 
+file_path2= r"D:/Downloads/202310 L.A.R. KAPURA - LAR DT CSV (4).tsv"
+file_path_salida2 = r"d:/Downloads/202310 L.A.R. KAPURA.csv"
+
+
 with open(file_path2, 'rb') as open_file:
 #with open(file_path, 'rb',encoding='cp1252') as open_file:
     content = open_file.read()
